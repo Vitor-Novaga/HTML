@@ -1,0 +1,45 @@
+.form{
+    padding: 20px;
+
+}
+
+.form .form-header{
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form .form-content {
+
+    margin: 10px 0;
+}
+
+.form .form-content .form-input{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10;
+}
+
+.form .form-content .form-input.required label::after{
+    content: "*";
+    color: rgb(24, 14, 2);}
+
+.form .form-content .form-input label{
+
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.form .form-action{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.produtos {
+    padding: 30px;
+    list-style: unset;
+}
